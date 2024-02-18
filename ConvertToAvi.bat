@@ -1,0 +1,1 @@
+ffmpeg -framerate 30 -start_number 1 -i ScreenShots%%04d.png -c:v mpeg4 -q:v 2 out.avi
